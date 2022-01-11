@@ -94,7 +94,7 @@ def main():
     			st.success("Found {} faces\n".format(len(result_faces)))
 
     elif choice == "About":
-    	about()
+    	print("This part is removed")
 
 
 
