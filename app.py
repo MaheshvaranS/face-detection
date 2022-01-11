@@ -73,7 +73,15 @@ def detect(image):
 def main():
     st.title("Face Detection App ")
     st.write("*Using the Haar cascade Classifiers*")
-
+    
+    hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+    
     choice = "Home"
 
     if choice == "Home":
