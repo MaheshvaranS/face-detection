@@ -74,7 +74,6 @@ def main():
     st.title("Face Detection App ")
     st.write("*Using the Haar cascade Classifiers*")
 
-    activities = ["Home", "About"]
     choice = "Home"
 
     if choice == "Home":
